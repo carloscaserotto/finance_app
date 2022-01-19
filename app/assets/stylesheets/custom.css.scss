@@ -1,7 +1,23 @@
 @import 'bootstrap/dist/css/bootstrap';
-
-
-    
+   
 .navbar-brand {
    font-size: 2rem;
+}
+
+.search-area{
+   padding-top: 50px
+}
+
+.results-blocks {
+   display: inline-block;
+   margin-bottom: 1rem;
+}
+
+.logout-button {
+   margin-right: 5px;
+}
+
+.user-name {
+   margin-top: 10px;
+   padding-right: 5px;
 }
