@@ -1,5 +1,6 @@
 class UserStocksController < ApplicationController
     def create
+        #byebug
         stock = Stock.check_db(params[:ticker])
         if stock.blank?
             stock = Stock.new_loockup(params[:ticker])
